@@ -1,0 +1,12 @@
+[main] a 1000 (0) exception: trapped!
+[main] a 1000 (0) exception: code 0xC0000005 at 0x9
+[main] a 1000 (0) exception: ax 0x0 bx 0x244FF30 cx 0xC dx 0x61061340
+[main] a 1000 (0) exception: si 0x0 di 0x0 bp 0x8 sp 0x244FF18
+[main] a 1000 (0) exception: exception is: STATUS_ACCESS_VIOLATION
+[main] a 1000 (0) stack: Stack trace:
+[main] a 1000 (0) stack: frame 0: sp = 0x244F93C, pc = 0x6100A2C3
+[main] a 1000 (0) stack: frame 1: sp = 0x244F978, pc = 0x77EB6AB9
+[main] a 1000 (0) stack: frame 2: sp = 0x244F99C, pc = 0x77EB6A8B
+[main] a 1000 (0) stack: frame 3: sp = 0x244FA4C, pc = 0x77E80143
+[main] a 1000 (0) handle_exceptions: Exception: STATUS_ACCESS_VIOLATION
+[main] a 1000 (0) handle_exceptions: Error while dumping state (probably corrupted stack)
